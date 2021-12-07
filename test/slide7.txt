@@ -1,0 +1,38 @@
+<section>
+<!--S7-->
+        <div>
+            <div class="sec-h bg-gray">
+                <div class="h-num h-md t-no bg-dark-gray l-pd t-col-black">06.</div>
+                <div class="h-txt t-no h-md t-col-black">Reducers</div>
+            </div>
+            <div class="sec-c l-mg">
+                <div class="t-no t-w-rg t-col-black seg-w t-s-no">
+                    Here is an example, <br />
+                </div>
+                <div class="bg-gray seg-code t-col-black seg-w-ex-l">
+                    <pre>
+                        <code class="t-mo t-s-no">
+const controlCardReducer = (state, action) => {
+    switch(action.type) {
+
+        case controlCardEvents.PAUSE_SLIDESHOW: {
+            return Object.assign({}, state, { paused: true, slideShowStates: 'pause'});
+        }
+        case controlCardEvents.PLAY_SLIDESHOW: {
+            return Object.assign({}, state, { paused: false, slideShowStates: 'play'});
+        }
+        default: return state;
+
+    }
+}   
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+            <div class="sec-f t-no t-w-md">
+                <div class="f-p-name bg-gray l-pd">Flux Architecture</div>
+                <div class="f-pg-num bg-dark-gray">7</div>
+            </div>
+        </div>
+</section>

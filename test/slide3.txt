@@ -1,0 +1,28 @@
+<section>
+<!--S3-->
+        <div>
+            <div class="sec-h bg-gray">
+                <div class="h-num h-md t-no bg-dark-gray l-pd t-col-black">02.</div>
+                <div class="h-txt t-no h-md t-col-black">State Managment Mechanism</div>
+            </div>
+            <div class="sec-c l-mg">
+                <div class="t-no h-sm seg-w">State of an app</div>
+                <div class="t-no t-w-rg t-col-black seg-w t-s-no">
+                    State of an app is a simple JavaScript object.
+                </div>
+                <div class="bg-gray seg-code t-col-black seg-w-ex">
+                    <pre>
+                        <code class="t-mo t-s-no">
+{ 
+    controlCard: { selectedSlide: 1, pasued: false }
+}   
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="sec-f t-no t-w-md">
+                <div class="f-p-name bg-gray l-pd">Flux Architecture</div>
+                <div class="f-pg-num bg-dark-gray">3</div>
+            </div>
+        </div>
+</section>

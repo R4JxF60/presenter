@@ -1,0 +1,28 @@
+<section>
+<!--S9-->
+        <div>
+            <div class="sec-h bg-gray">
+                <div class="h-num h-md t-no bg-dark-gray l-pd t-col-black">08.</div>
+                <div class="h-txt t-no h-md t-col-black">What Is "dispatch( )" & How It Works</div>
+            </div>
+            <div class="sec-c l-mg">
+                <div class="t-no t-w-rg t-col-black seg-w t-s-no">
+                    We use "dispatch()" method for dispatching events base actions. Subscribers are listening to these dispatch actions for giving their responses.
+                </div>
+                <div class="bg-gray seg-code t-col-black seg-w-ex">
+                    <pre>
+                        <code class="t-mo t-s-no">
+end() {
+    this.dispatch(controlCardActions.endSlideShow());
+}
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+            <div class="sec-f t-no t-w-md">
+                <div class="f-p-name bg-gray l-pd">Flux Architecture</div>
+                <div class="f-pg-num bg-dark-gray">9</div>
+            </div>
+        </div>
+</section>

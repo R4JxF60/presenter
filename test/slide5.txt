@@ -1,0 +1,33 @@
+<section>
+<!--S5-->
+         <div>
+            <div class="sec-h bg-gray">
+                <div class="h-num h-md t-no bg-dark-gray l-pd t-col-black">04.</div>
+                <div class="h-txt t-no h-md t-col-black">Events</div>
+            </div>
+            <div class="sec-c l-mg">
+                <div class="t-no t-w-rg t-col-black seg-w t-s-no">
+                    Here is an example, <br />
+                </div>
+                <div class="bg-gray seg-code t-col-black seg-w">
+                    <pre>
+                        <code class="t-mo t-s-no">
+const controlCardEvents = {
+
+    SELECT_A_SLIDE: 'CONTROL_CARD/SELECT_A_SLIDE',
+    END_SLIDESHOW: 'CONTROL_CARD/END_SLIDESHOW',
+    PAUSE_SLIDESHOW: 'CONTROL_CARD/POST_SLIDESHOW',
+    PLAY_SLIDESHOW: 'CONTROL_CARD/PLAY_SLIDESHOW'
+
+}             
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+            <div class="sec-f t-no t-w-md">
+                <div class="f-p-name bg-gray l-pd">Flux Architecture</div>
+                <div class="f-pg-num bg-dark-gray">5</div>
+            </div>
+        </div>
+</section>

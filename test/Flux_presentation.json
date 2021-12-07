@@ -1,0 +1,52 @@
+{
+    "total": 11,
+    "style": "<style> * {box-sizing: border-box; margin: 0; padding: 0;} body > div { margin: 10px;}.l-mg {margin-left: 10rem;}.l-pd {padding-left: 10rem;}.h-la {font-size: 4rem;font-weight: 600;}.h-md {font-size: 3rem;font-weight: 600;}.h-sm {font-size: 2.3rem;font-weight: 600;}.t-mo {font-family: 'MonoLisa', monospace;}.t-no {font-family: 'PT Sans', sans-serif;}.t-w-rg {font-weight: 400;}.t-w-md {font-weight: 500;}.t-w-bo {font-weight: 600;}.t-col-black { color: #333333;}.t-s-no { font-size: 1.5rem;}.t-s-md {font-size: 2.5rem;}.t-s-lg {font-size: 3.5rem;}.bg-gray {background-color: #d3d3d3;}.bg-dark-gray {background-color: #838383;}.sec-h {height: 12vh; display: flex;align-items: center;margin-bottom: 10vh;z-index: 2;}.sec-c {height: 74vh;overflow: hidden; z-index: 1;}.sec-c > div {margin-bottom: 1rem;}.sec-f {height: 4vh;display: flex;align-items: center;z-index: 2;}.h-num {height: 100%;display: flex;justify-content: center;align-items: center;padding-right: 1rem;}.h-txt {margin-left: 1rem;}.seg-code {padding: 1rem;}.seg-w {width: 58vw;}.seg-w-ex {width: 75vw;}.seg-w-ex-l {width: 88vw;}.f-p-name {height: 100%;flex: 3;display: flex;align-items: center;}.f-pg-num {height: 100%;flex: 1;display: flex;align-items: center;padding-left: 1rem;}</style>",
+    "slides": [
+        {
+            "1": {
+                "html": "slide1.txt",
+                "speakerNote": "Explain the issue and why we need this kind of process"
+            },
+            "2": {
+                "html": "slide2.txt",
+                "speakerNote": "What is redux and what functionalities redux provide"
+            },
+            "3": {
+                "html": "slide3.txt",
+                "speakerNote": "How state affect to the application and what are the benifits"
+            },
+            "4": {
+                "html": "slide4.txt",
+                "speakerNote": "Explain each of these and move to the example"
+            },
+            "5": {
+                "html": "slide5.txt",
+                "speakerNote": ""
+            },
+            "6": {
+                "html": "slide6.txt",
+                "speakerNote": ""
+            },
+            "7": {
+                "html": "slide7.txt",
+                "speakerNote": ""
+            },
+            "8": {
+                "html": "slide8.txt",
+                "speakerNote": ""
+            },
+            "9": {
+                "html": "slide9.txt",
+                "speakerNote": ""
+            },
+            "10": {
+                "html": "slide10.txt",
+                "speakerNote": "Why do we need bind operation"
+            },
+            "11": {
+                "html": "slide11.txt",
+                "speakerNote": "Explain about reference points"
+            }
+        }
+    ]
+}
