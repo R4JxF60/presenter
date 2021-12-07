@@ -1,0 +1,1 @@
+export default { selectedSlide: 1, paused: false, slideShowStates: 'play'};

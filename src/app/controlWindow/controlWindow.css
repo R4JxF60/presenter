@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #333333;
+    user-select: none;
+}
+
+.info__card {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.info__card__pre__name {
+    display: flex;
+    width: 60vw;
+}
+
+.info__card__pre__info {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.display__card {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.display__card__video {
+    /*width: 64vw;*/
+    /*background-color: rgb(226, 226, 226);*/
+    /*border-radius: 0.5rem;*/
+    margin: 0rem 0.5rem 0rem 1rem;
+    overflow: hidden;
+}
+
+.display__card__notes {
+    flex: 1;
+    border: 1px solid rgb(214, 214, 214);
+    /*border-radius: 0.5rem;*/
+    margin: 0rem 1rem 0rem 0.5rem;
+    padding: 0.5rem;
+    overflow-y: auto;
+    user-select: text;
+}
+
+.control__card {
+    height: 12vh;
+    margin: 0rem 1rem 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.control__card__controllers {
+    display: flex;
+}
+
+.control__card__controllers > div {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.control__card--dropdown--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.5rem;
+    height: 2.6rem;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+    /*border-radius: 0.25rem;*/
+}
+
+.control__card--dropdown--button > div {
+    margin-right: 0.5rem;
+}
+
+.control__card--dropdown--slide {
+    position: absolute;
+    bottom: 2.6rem;
+    display: none;
+    width: 7.5rem;
+    max-height: 13rem;
+    overflow: auto;
+    background-color: rgb(226, 226, 226);
+    /*border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;*/
+}
+
+.control__card--dropdown {
+    position: relative;
+}
+
+.control__card--dropdown--slide > div {
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.control__card--dropdown--slide > div:hover {
+    background-color: rgb(151, 151, 151);
+}
+
+.control__card--dropdown:hover .control__card--dropdown--slide {
+    display: block;
+}

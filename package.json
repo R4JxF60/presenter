@@ -1,0 +1,14 @@
+{
+  "name": "presenter",
+  "version": "1.0.0",
+  "description": "simple HTML slide presenter",
+  "main": "./src/app/app.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "Rajitha Kumara",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.5.0"
+  }
+}
