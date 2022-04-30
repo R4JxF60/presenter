@@ -4,7 +4,7 @@
 DEVELOPER: R4JxF60
 
 # Description
-Presenter is an example application based on **Facebook Flux Architecture** and **Electrone**.
+Presenter is an example application based on **Facebook Flux Architecture** and **Electron JS**.
 
 # Instructions
 
@@ -14,4 +14,4 @@ Presenter is an example application based on **Facebook Flux Architecture** and 
 
 ## 0x0002 Run
 
-    npm run electone
+    npm run electon
